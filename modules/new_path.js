@@ -2,15 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Допустимые форматы изображений
-const validImageExtensions = [
-  ".png",
-  ".jpg",
-  ".jpeg",
-  ".gif",
-  ".bmp",
-  ".webp",
-  ".tiff",
-];
+const validImageExtensions = [".png", ".jpg", ".jpeg"];
 
 // Функция для перемещения файлов с использованием Promise
 const moveFilesToFolder = (filePath, folderName, destDir) => {
