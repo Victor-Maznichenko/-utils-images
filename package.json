@@ -1,0 +1,23 @@
+{
+  "name": "image-minify",
+  "author": {
+    "name": "Victor Maznichenko"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cwebp": "^3.1.0",
+    "fs": "^0.0.1-security",
+    "imagemin": "^9.0.0",
+    "imagemin-webp": "^8.0.0",
+    "sharp": "^0.33.5",
+    "tmp": "^0.2.3"
+  },
+  "devDependencies": {
+    "@types/tmp": "^0.2.6",
+    "jpegoptim-bin": "^7.1.0",
+    "pngquant-bin": "^9.0.0"
+  }
+}
