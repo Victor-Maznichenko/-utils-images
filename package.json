@@ -12,7 +12,9 @@
     "fs": "^0.0.1-security",
     "imagemin": "^9.0.0",
     "imagemin-webp": "^8.0.0",
+    "inquirer": "^12.0.0",
     "sharp": "^0.33.5",
+    "tinify": "^1.7.1",
     "tmp": "^0.2.3"
   },
   "devDependencies": {
